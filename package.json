@@ -1,0 +1,23 @@
+{
+  "name": "express_server_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.53.1",
+    "mongodb": "^3.6.6",
+    "socket.io": "^4.1.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
