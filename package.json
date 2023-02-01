@@ -5,15 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js && npm heroku-postbuild",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
+    "start": "node index.js
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "heroku": "^7.53.1",
     "mongodb": "^3.6.6",
     "socket.io": "^4.1.1"
   },
